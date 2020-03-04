@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito sans', sans-serif;
+    font-size: 13px;
+}
+
+#nav-dim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 4cm;
+}
+
+nav ul li:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.home {
+    background-color: yellow;
+    justify-content: space-between;
+}
+
+.home h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+
+.home div {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#img1,
+#img2,
+#img3 {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#img4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button {
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.list {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-top: 0.5cm;
+    line-height: 30px;
+}
+
+.list ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.list h2 {
+    padding-bottom: 10px;
+}
+
+.list ul li:hover {
+    color: rgb(12, 194, 170);
+    text-decoration: underline;
+}
+
+.lang {
+    line-height: 40px;
+    flex-direction: column;
+    margin-left: 123px;
+    padding-bottom: 15px;
+}
+
+#box {
+    border-radius: 5px;
+    background: white;
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.6);
+    height: 34px;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 1060px;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: azure;
+}
+
+footer p {
+    cursor: pointer;
+}
